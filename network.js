@@ -5,7 +5,7 @@ export default {
   logo: `luna.png`,
   website: 'https://www.bitcanna.io',
   apiURL: 'https://phoenix-lcd.terra.dev', // https://lcd.bitcanna.io
-  rpcURL: 'http://65.21.192.108:3061', // https://rpc.bitcanna.io
+  rpcURL: 'https://rpc.terrav2.ccvalidators.com', // https://rpc.bitcanna.io
   explorerURL: 'https://cosmos-explorer.bitcanna.io',
   txsExplorerURL: 'https://finder.terra.money',
   exchangeApiUrl: 'https://swap.bitcanna.io',
@@ -27,7 +27,7 @@ export default {
   lockUpPeriod: `21 days`,
   fees: {
     default: {
-      gasEstimate: 800000,
+      gasEstimate: 250000,
       feeOptions: [
         {
           denom: 'LUNA',
