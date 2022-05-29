@@ -2,7 +2,7 @@
   <div class="transactions">
     <div class="header-container">
       <CommonButton
-        :href="network.bitcannaExplorerURL + '/accounts/' + session.address"
+        :href="network.txsExplorerURL + '/mainnet/address/' + session.address"
         value="View all transactions"
         :link="true"
       />

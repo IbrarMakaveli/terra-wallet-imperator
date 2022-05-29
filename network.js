@@ -7,7 +7,7 @@ export default {
   apiURL: 'https://phoenix-lcd.terra.dev', // https://lcd.bitcanna.io
   rpcURL: 'http://65.21.192.108:3061', // https://rpc.bitcanna.io
   explorerURL: 'https://cosmos-explorer.bitcanna.io',
-  bitcannaExplorerURL: 'https://explorer.bitcanna.io',
+  txsExplorerURL: 'https://finder.terra.money',
   exchangeApiUrl: 'https://swap.bitcanna.io',
   osmosAppUrl: 'https://app.osmosis.zone',
   // minBlockHeight: 5200792, // actually 5200791, but it has the wrong block time.
@@ -17,7 +17,7 @@ export default {
       viewDenom: 'LUNA',
       chainDenom: 'uluna',
       chainToViewConversionFactor: 1e-6,
-      icon: `currencies/luna.png`,
+      icon: `_nuxt/assets/images/currencies/luna.png`,
     },
   ],
   addressPrefix: 'terra',

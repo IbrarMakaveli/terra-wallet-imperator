@@ -2,7 +2,7 @@
   <div class="tx-container">
     <a
       class="transaction"
-      :href="network.bitcannaExplorerURL + '/transactions/' + transaction.hash"
+      :href="network.txsExplorerURL + '/mainnet/tx/' + transaction.hash"
       target="_blank"
       rel="nofollow noreferrer noopener"
     >

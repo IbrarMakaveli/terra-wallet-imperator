@@ -138,7 +138,7 @@
       <div class="session-footer second-step">
         <CommonButton value="Back" type="secondary" @click.native="onBack" />
         <CommonButton
-          :href="network.bitcannaExplorerURL + '/accounts/' + cosmosAddress"
+          :href="network.txsExplorerURL + '/mainnet/address/' + cosmosAddress"
           value="View address"
           :link="true"
         />
