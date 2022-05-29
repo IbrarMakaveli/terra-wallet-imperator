@@ -274,7 +274,7 @@ async function delegateTokensLuna(
     addTo,
     amount,
     fee,
-    'Delegated from WebWallet'
+    'Delegated from terra.imperator.co'
   )
   assertIsBroadcastTxSuccess(result)
   return result

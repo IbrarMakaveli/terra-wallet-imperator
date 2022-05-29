@@ -17,7 +17,7 @@ export default {
       viewDenom: 'LUNA',
       chainDenom: 'uluna',
       chainToViewConversionFactor: 1e-6,
-      icon: `_nuxt/assets/images/currencies/luna.png`,
+      icon: `luna.png`,
     },
   ],
   addressPrefix: 'terra',

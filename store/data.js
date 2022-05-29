@@ -233,7 +233,10 @@ export const actions = {
           await axios.get()
           apiRes = finalAvatar
         } catch (err) {
-          apiRes = 'logo-luna.png'
+          apiRes = 'luna.png'
+          if (item.identity === '0878BA6BE556C132') {
+            apiRes = 'ico-imperator.png'
+          }
         }
         item.picture = apiRes
       })
