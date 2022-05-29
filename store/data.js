@@ -226,16 +226,14 @@ export const actions = {
         // await state.validators.forEach(function (item) {
         let apiRes = null
         const finalAvatar =
-          'https://raw.githubusercontent.com/cosmostation/cosmostation_token_resource/master/moniker/bitcanna/' +
-          item.operatorAddress +
-          '.png'
-        const defaultLogo = 'default'
+          'https://keybase.io/_/api/1.0/user/lookup.json?key_suffix=' +
+          item.identity +
+          '&fields=pictures'
         try {
-          await axios.get(finalAvatar)
+          await axios.get()
           apiRes = finalAvatar
         } catch (err) {
-          apiRes = defaultLogo
-          // apiRes = 'logo-luna.png'
+          apiRes = 'logo-luna.png'
         }
         item.picture = apiRes
       })
