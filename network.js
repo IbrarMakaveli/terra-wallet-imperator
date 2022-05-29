@@ -2,7 +2,7 @@ export default {
   id: 'phoenix-1',
   name: 'Terra',
   description: 'Terra 2.0 provides a new phoenix rises from the ashes.',
-  logo: `luna.png`,
+  logo: `banner-terra.png`,
   website: 'https://www.terra.money',
   apiURL: 'https://phoenix-lcd.terra.dev', // https://lcd.bitcanna.io
   rpcURL: 'https://rpc.terrav2.ccvalidators.com', // https://rpc.bitcanna.io
