@@ -73,6 +73,10 @@ export default {
         [this.sort.property],
         [this.sort.order]
       )
+      orderedValidators.sort(
+        (a, b) =>
+          b.name.startsWith('Imperator') - a.name.startsWith('Imperator')
+      )
       return orderedValidators
     },
     properties() {
