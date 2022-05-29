@@ -200,7 +200,9 @@ export default {
         copie.push({ key: item.name, value: item.operatorAddress })
       })
       console.log(this.validators)
-      copie.sort((a, b) => (a.key !== b.key ? (a.key < b.key ? -1 : 1) : 0))
+      copie.sort(
+        (a, b) => b.key.startsWith('Imperator') - a.key.startsWith('Imperator')
+      )
       return copie
     },
   },
