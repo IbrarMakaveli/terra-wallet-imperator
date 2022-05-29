@@ -11,7 +11,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Terra Wallet',
+    title: 'Terra Wallet Imperator',
     htmlAttrs: {
       lang: 'en',
     },
@@ -28,19 +28,19 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: 'luna.png',
+        href: 'ico-imperator.png',
         sizes: '32x32',
       },
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: 'luna.png',
+        href: 'ico-imperator.png',
         sizes: '192x192',
       },
       {
         rel: 'apple-touch-icon',
         type: 'image/x-icon',
-        href: 'luna.png',
+        href: 'ico-imperator.png',
       },
     ],
   },
