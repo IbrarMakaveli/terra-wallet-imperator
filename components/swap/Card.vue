@@ -129,10 +129,7 @@
 
       <div class="paragraph content support">
         Haven’t received anything after 10 minutes? Contact us at
-        <a href="mailto:support@bitcanna.io">support@bitcanna.io</a>; make sure
-        to provide your new LUNA address, and/or your transaction hash. (You can
-        copy the address by clicking on the address in the top left corner of
-        your web wallet)
+        <a href="mailto:contact@imperator.co">contact@imperator.co</a>
       </div>
 
       <div class="session-footer second-step">

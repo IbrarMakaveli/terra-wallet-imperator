@@ -107,7 +107,7 @@
           </td>
           <td class="cell">
             <CommonButton
-              :href="'https://docs.bitcanna.io/guides/validator-setup-guide'"
+              :href="'https://imperator.co'"
               value="Start earning"
               :link="true"
             />

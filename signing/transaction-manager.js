@@ -311,7 +311,7 @@ async function unDelegateTokensLuna(
     validator,
     amount,
     fee,
-    'Undelegate from Bitcanna WebWallet'
+    'Undelegate from terra.imperator.co'
   )
   assertIsBroadcastTxSuccess(result)
   return result
@@ -396,7 +396,7 @@ async function voteTxLuna(sign, fromDel, proposalIdd, vote, fee, signingType) {
     proposalId,
     finalVote,
     fee,
-    'Voted from Bitcanna WebWallet'
+    'Voted from terra.imperator.co'
   ) */
   const MsgVote = defaultRegistryTypes[7][1] // MsgVote
   const voteMsg = {

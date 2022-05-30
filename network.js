@@ -4,11 +4,11 @@ export default {
   description: 'Terra 2.0 provides a new phoenix rises from the ashes.',
   logo: `banner-terra.png`,
   website: 'https://www.terra.money',
-  apiURL: 'https://phoenix-lcd.terra.dev', // https://lcd.bitcanna.io
-  rpcURL: 'https://rpc.terrav2.ccvalidators.com', // https://rpc.bitcanna.io
-  explorerURL: 'https://cosmos-explorer.bitcanna.io',
+  apiURL: 'https://phoenix-lcd.terra.dev',
+  rpcURL: 'https://rpc.terrav2.ccvalidators.com',
+  explorerURL: 'https://finder.terra.money',
   txsExplorerURL: 'https://finder.terra.money',
-  exchangeApiUrl: 'https://swap.bitcanna.io',
+  exchangeApiUrl: 'https://finder.terra.money',
   osmosAppUrl: 'https://app.osmosis.zone',
   // minBlockHeight: 5200792, // actually 5200791, but it has the wrong block time.
   stakingDenom: 'LUNA',

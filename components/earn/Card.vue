@@ -19,9 +19,8 @@
 export default {
   name: `PageSwap`,
   data: () => ({
-    urlMeduim:
-      'https://medium.com/@TerraGlobal/osmosis-dex-liquidity-pools-meet-bitcanna-ea63142644ab',
-    urlDoc: 'https://docs.bitcanna.io/concepts-and-terminology/staking',
+    urlMeduim: 'https://imperator.co',
+    urlDoc: 'https://imperator.co/',
   }),
 }
 </script>
