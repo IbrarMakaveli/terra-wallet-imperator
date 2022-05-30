@@ -23,7 +23,7 @@ export default {
   addressPrefix: 'terra',
   validatorAddressPrefix: 'terravaloper',
   validatorConsensusaddressPrefix: 'terravalcons', // needed to map validators from staking queries to the validator set
-  HDPath: `m/44'/330'/0'/0/0`,
+  HDPath: `m/44'/118'/0'/0/0`,
   lockUpPeriod: `21 days`,
   fees: {
     default: {
