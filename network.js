@@ -5,7 +5,7 @@ export default {
   logo: `banner-terra.png`,
   website: 'https://www.terra.money',
   apiURL: 'https://phoenix-lcd.terra.dev',
-  rpcURL: 'https://rpc.terrav2.ccvalidators.com',
+  rpcURL: 'https://rpc-terra2.imperator.co',
   explorerURL: 'https://finder.terra.money',
   txsExplorerURL: 'https://finder.terra.money',
   exchangeApiUrl: 'https://finder.terra.money',
