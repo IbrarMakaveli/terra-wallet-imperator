@@ -33,7 +33,7 @@
         <i class="material-icons notranslate">chevron_right</i>
       </nuxt-link>
 
-      <nuxt-link
+      <!-- <nuxt-link
         class="app-menu-item"
         to="/proposals"
         exact="exact"
@@ -42,7 +42,7 @@
       >
         <h2 class="app-menu-title">Proposals</h2>
         <i class="material-icons notranslate">chevron_right</i>
-      </nuxt-link>
+      </nuxt-link> -->
 
       <nuxt-link
         class="app-menu-item"

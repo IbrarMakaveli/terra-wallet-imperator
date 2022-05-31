@@ -374,7 +374,8 @@ export default class CosmosAPI {
   }
 
   async getProposals() {
-    await this.dataReady
+  // disable proposal by Ibrar
+  /*   await this.dataReady
     const [
       proposalsResponse,
       pool,
@@ -403,7 +404,8 @@ export default class CosmosAPI {
       })
     )
 
-    return orderBy(proposals, 'id', 'desc')
+    return orderBy(proposals, 'id', 'desc') */
+    return null
   }
 
   async getTopVoters() {
