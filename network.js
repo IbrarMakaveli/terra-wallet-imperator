@@ -4,7 +4,7 @@ export default {
   description: 'Terra 2.0 provides a new phoenix rises from the ashes.',
   logo: `banner-terra.png`,
   website: 'https://www.terra.money',
-  apiURL: 'https://phoenix-lcd.terra.dev',
+  apiURL: 'https://lcd-terra2.imperator.co',
   rpcURL: 'https://rpc-terra2.imperator.co',
   explorerURL: 'https://finder.terra.money',
   txsExplorerURL: 'https://finder.terra.money',
